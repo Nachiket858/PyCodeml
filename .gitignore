@@ -1,0 +1,38 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.myenv/
+*.venv
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.whl
+
+# Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# VS Code workspace settings (if using VS Code)
+.vscode/
+
+# System files (Mac & Windows)
+.DS_Store
+Thumbs.db
+
+# PyCharm settings (if using PyCharm)
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+*.env
