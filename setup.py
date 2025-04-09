@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="pycodeml",
-    version="0.0.10",
+    version="0.0.11",
     description="Automatically train multiple regression models and return the best one.",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
