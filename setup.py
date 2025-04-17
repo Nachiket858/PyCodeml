@@ -2,13 +2,13 @@ from setuptools import setup, find_packages
 
 setup(
     name="pycodeml",
-    version="0.0.11",
+    version="0.0.12",
     description="Automatically train multiple regression models and return the best one.",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
     author="Nachiket Shinde",
-    author_email="nachiketshinde2004@gmail.com",  # Replace with your email
-    url="https://github.com/Nachiket858/PyCodeML",  # Replace with your GitHub repo
+    author_email="nachiketshinde2004@gmail.com",  
+    url="https://github.com/Nachiket858/PyCodeML",  
     license="MIT",
     packages=find_packages(),
     install_requires=[

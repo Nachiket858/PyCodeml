@@ -30,7 +30,7 @@ from PyCodeml.regressor import RegressorTrainer  # For regression tasks
 df = pd.read_csv("data.csv")
 
 # Initialize and train the model
-trainer = RegressorTrainer(df, "target")
+trainer = RegressorTrainer(df, "target", data_sample_percent=100)   
 best_model = trainer.train_and_get_best_model()
 
 # Save the best model
